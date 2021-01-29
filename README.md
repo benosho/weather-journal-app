@@ -40,7 +40,7 @@ A Node.js journaling app that combines data from the OpenWeatherMap API with cli
 ## Run the Project
 ### Start the server from the command line:
     node server.js
-#### View the app in your browser at http://localhost:3000
+#### View the app at http://localhost:3000
 
 ## Release History
 - 1.0.0
