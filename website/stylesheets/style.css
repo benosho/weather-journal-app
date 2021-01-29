@@ -1,0 +1,108 @@
+body {
+  padding: 20px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  min-height: 100px;
+  justify-content: center;
+}
+
+#app h1 {
+	font-size: 1.6em;
+	text-shadow: 0 1px 1px #fff;
+}
+
+#app h2 {
+  font-size: 1.2em;
+}
+
+#app .entry .entry-item {
+  display: block;
+  font-weight: 700;
+  padding-top: 1em;
+}
+
+#app button {
+  background-color: #000;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  height: 60px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  width: 200px;
+  vertical-align: middle;
+}
+
+#app button:hover {
+  cursor: pointer;
+}
+
+#app input[type="text"] {
+  border-radius: 2px;
+  font-size: 16px;
+  height: 30px;
+  padding: 10px;
+  width: 250px;
+}
+
+#app label {
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#app textarea {
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 10px;
+  width: 90%;
+}
+
+#app .headline {
+  align-items: center;
+  background-image: url(../images/weather-banner.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 250px;
+}
+
+#app .holder {
+  margin-bottom: 2em;
+}
+
+#app .holder.entry {
+  margin-top: 3em;
+  margin-bottom: 5em;
+  width: 90%;
+}
+
+#entryHolder {
+  border-top: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

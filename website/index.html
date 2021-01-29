@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Weather Journal App">
+  <meta name="keywords" content="Weather Journal, App">
+  <meta name="author" content="Gbenga Oso">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Journal App</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <div id=app>
+    <div class="holder headline">
+      <h1 class="app-name">Weather Journal App</h1>
+    </div>
+    <div class="holder zip">
+      <label for="zip">Zip code*</label>
+      <input type="text" id="zip" placeholder="Enter a valid U.S. zip code here" required aria-required="true">
+    </div>
+    <div class="holder feel">
+      <label for="feelings">How are you feeling today?*</label>
+      <textarea id="feelings" rows="9" required aria-required="true"></textarea>
+    </div>
+    <button id="generate" type="button">Generate</button>
+    <div class="holder entry">
+      <h2>Most recent journal entry</h2>
+      <div id="entryHolder">
+        <div id="date"></div>
+        <div id="temp"></div>
+        <div id="content"></div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy;2021 Gbenga Oso. All rights reserved.
+  </footer>
+  <script src=" javascripts/compiled-app.js"></script>
+</body>
+
+</html>
