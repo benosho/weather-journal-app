@@ -47,4 +47,4 @@ A Node.js journaling app that combines data from the OpenWeatherMap API with cli
     - First release - 29 Jan 2021
 
 ## Author
-Gbenga Oso on the [Udacity Frontend Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011/)
+Gbenga Oso, [Udacity Frontend Developer Nanodegree Program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011/)
