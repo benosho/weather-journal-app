@@ -2,9 +2,8 @@
 
 A Node.js journaling app that combines data from the OpenWeatherMap API with client-side user input and displays the combined data on the frontend.
 
-> **⚠️ Note:** This project currently supports only U.S. ZIP codes. An API key for OpenWeatherMap is required.
+> :warning: This project currently supports only U.S. ZIP codes. An API key for OpenWeatherMap is required.
 
----
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,12 +19,10 @@ A Node.js journaling app that combines data from the OpenWeatherMap API with cli
 - [Contributing](#contributing)
 - [License](#license)
 
----
 
 ## Overview
 The Weather Journal App lets users enter their ZIP code and a personal feeling, fetches weather data for that ZIP code from the OpenWeatherMap API, and displays the combined result on the frontend. This project was completed as part of the Udacity Frontend Developer Nanodegree program.
 
----
 
 ## Features
 - Captures user comments (feelings) and associates them with a US ZIP code.
@@ -33,7 +30,6 @@ The Weather Journal App lets users enter their ZIP code and a personal feeling, 
 - Displays the combined data on the app frontend.
 - Simple, client-side UI with server-side data aggregation.
 
----
 
 ## Tech Stack
 - **Node.js**
@@ -43,14 +39,12 @@ The Weather Journal App lets users enter their ZIP code and a personal feeling, 
 - **node-fetch**
 - (Optional) Browserify for bundling client-side JavaScript that uses Node's require
 
----
 
 ## Requirements
 - **Node.js** (LTS recommended)
 - **OpenWeatherMap API key**
 - Internet access to fetch weather data
 
----
 
 ## Installation
 
@@ -70,7 +64,6 @@ The Weather Journal App lets users enter their ZIP code and a personal feeling, 
 6. (Optional) Build/bundle client-side code
    - If your project uses Browserify or another bundler, follow the project’s bundling steps. The repository documentation may reference Browserify, but you can use any bundler you prefer.
 
----
 
 ## Usage
 
@@ -85,7 +78,6 @@ Notes:
 - Currently, only US ZIP codes are supported.
 - Ensure your OPENWEATHERMAP_API_KEY is set in your environment before running.
 
----
 
 ## Endpoints & Data Flow
 
@@ -114,7 +106,6 @@ If you need to adjust endpoints, this project typically uses:
 - POST /add
 - GET /all
 
----
 
 ## Folder Structure
 
@@ -135,13 +126,11 @@ If you need to adjust endpoints, this project typically uses:
 - 1.0.0 - First release (Jan 29, 2021)
   - Initial implementation of a Node.js journaling app combining OpenWeatherMap data with user input
 
----
 
 ## Authors
 
 - Gbenga "Ben" Oso
 
----
 
 ## Contributing
 
@@ -152,7 +141,6 @@ Contributions are welcome! Please follow these steps:
 - Run tests and ensure the app builds
 - Open a pull request with a clear description of changes
 
----
 
 ## License
 
